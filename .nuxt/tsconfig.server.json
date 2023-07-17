@@ -12,63 +12,63 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/types/nitro-imports"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website"
       ],
       "~/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/*"
       ],
       "@": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website"
       ],
       "@/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/*"
       ],
       "~~": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website"
       ],
       "~~/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/*"
       ],
       "@@": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website"
       ],
       "@@/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/*"
       ],
       "assets": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/assets"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/assets"
       ],
       "assets/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/assets/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/assets/*"
       ],
       "public": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/public"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/public"
       ],
       "public/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/public/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/public/*"
       ],
       "#image": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/node_modules/@nuxt/image-edge/dist/runtime"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/@nuxt/image-edge/dist/runtime"
       ],
       "#image/*": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/node_modules/@nuxt/image-edge/dist/runtime/*"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/@nuxt/image-edge/dist/runtime/*"
       ],
       "#color-mode-options": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/color-mode-options"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/color-mode-options"
       ],
       "#content/server": [
-        "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/node_modules/@nuxt/content/dist/runtime/server/index"
+        "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/@nuxt/content/dist/runtime/server/index"
       ]
     }
   },
   "include": [
-    "/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/types/nitro-nuxt.d.ts",
+    "/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

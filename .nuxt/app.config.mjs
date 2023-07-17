@@ -1,5 +1,5 @@
 
-import { defuFn } from '/Users/abdullahzeyn/code/azeyn25/Zeyn Website/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

@@ -1,54 +1,54 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join as join$1 } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, getQuery as getQuery$1, getCookie, createError, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/hookable/dist/index.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/defu/dist/defu.mjs';
-import { hash as hash$1 } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withLeadingSlash, withoutTrailingSlash, isRelative } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/radix3/dist/index.mjs';
-import { extname, join } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/pathe/dist/index.mjs';
-import { unified } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unified/index.js';
-import { toString } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/mdast-util-to-string/index.js';
-import { preprocess } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/micromark/dev/lib/preprocess.js';
-import { postprocess } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/micromark/dev/lib/postprocess.js';
-import { stringifyPosition } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/micromark-util-character/dev/index.js';
-import { push, splice } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/micromark-util-chunked/dev/index.js';
-import { resolveAll } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/micromark-util-resolve-all/index.js';
-import remarkEmoji from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-emoji/index.js';
-import rehypeSlug from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/rehype-slug/index.js';
-import remarkSqueezeParagraphs from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-squeeze-paragraphs/index.js';
-import rehypeExternalLinks from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/rehype-external-links/index.js';
-import remarkGfm from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-gfm/index.js';
-import rehypeSortAttributeValues from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/rehype-raw/index.js';
-import remarkMDC, { parseFrontMatter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-mdc/dist/index.mjs';
-import remarkParse from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-parse/index.js';
-import remark2rehype from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/remark-rehype/index.js';
-import { all } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/mdast-util-to-hast/index.js';
-import { detab } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/detab/index.js';
-import { u } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unist-builder/index.js';
-import { encode } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/mdurl/index.js';
-import slugify from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/slugify/slugify.js';
-import { position } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unist-util-position/index.js';
-import { visit } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unist-util-visit/index.js';
-import { FontStyle, BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/shiki-es/dist/shiki.node.mjs';
-import { consola } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/unenv/runtime/npm/consola.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, getQuery as getQuery$1, getCookie, createError, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/devalue/index.js';
+import { renderToString } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/hookable/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/defu/dist/defu.mjs';
+import { hash as hash$1 } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withLeadingSlash, withoutTrailingSlash, isRelative } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/radix3/dist/index.mjs';
+import { extname, join } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/pathe/dist/index.mjs';
+import { unified } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unified/index.js';
+import { toString } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/mdast-util-to-string/index.js';
+import { preprocess } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/micromark/dev/lib/preprocess.js';
+import { postprocess } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/micromark/dev/lib/postprocess.js';
+import { stringifyPosition } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/micromark-util-character/dev/index.js';
+import { push, splice } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/micromark-util-chunked/dev/index.js';
+import { resolveAll } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/micromark-util-resolve-all/index.js';
+import remarkEmoji from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-emoji/index.js';
+import rehypeSlug from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/rehype-slug/index.js';
+import remarkSqueezeParagraphs from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-squeeze-paragraphs/index.js';
+import rehypeExternalLinks from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/rehype-external-links/index.js';
+import remarkGfm from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-gfm/index.js';
+import rehypeSortAttributeValues from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/rehype-raw/index.js';
+import remarkMDC, { parseFrontMatter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-mdc/dist/index.mjs';
+import remarkParse from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-parse/index.js';
+import remark2rehype from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/remark-rehype/index.js';
+import { all } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/mdast-util-to-hast/index.js';
+import { detab } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/detab/index.js';
+import { u } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unist-builder/index.js';
+import { encode } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/mdurl/index.js';
+import slugify from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/slugify/slugify.js';
+import { position } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unist-util-position/index.js';
+import { visit } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unist-util-visit/index.js';
+import { FontStyle, BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/shiki-es/dist/shiki.node.mjs';
+import { consola } from 'file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/unenv/runtime/npm/consola.mjs';
 
 const providers = [
   ["APPVEYOR"],
@@ -355,7 +355,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/server/assets"}];
 
 const assets = createStorage();
 
@@ -367,12 +367,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -676,14 +676,14 @@ function getRouteRulesForPath(path) {
 
 const script = "\"use strict\";(()=>{const a=window,e=document.documentElement,m=[\"dark\",\"light\"],c=window.localStorage.getItem(\"nuxt-color-mode\")||\"system\";let n=c===\"system\"?f():c;const l=e.getAttribute(\"data-color-mode-forced\");l&&(n=l),i(n),a[\"__NUXT_COLOR_MODE__\"]={preference:c,value:n,getColorScheme:f,addColorScheme:i,removeColorScheme:d};function i(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.add(t):e.className+=\" \"+t,s&&e.setAttribute(\"data-\"+s,o)}function d(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.remove(t):e.className=e.className.replace(new RegExp(t,\"g\"),\"\"),s&&e.removeAttribute(\"data-\"+s)}function r(o){return a.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function f(){if(a.matchMedia&&r(\"\").media!==\"not all\"){for(const o of m)if(r(\":\"+o).matches)return o}return\"light\"}})();\n";
 
-const _pGEd6j1KLL = (function(nitro) {
+const _gLfkA8gFXn = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _pGEd6j1KLL
+  _gLfkA8gFXn
 ];
 
 function defineRenderHandler(handler) {
@@ -3528,7 +3528,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file:///Users/abdullahzeyn/code/azeyn25/Zeyn%20Website/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file:///Users/abdullahzeyn/code/azeyn25/Zeyn-Website/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }
@@ -3876,7 +3876,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _lrihBW = defineEventHandler(async (event) => {
+const _B71yPa = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (query.first) {
     const content = await serverQueryContent(event, query).findOne();
@@ -3907,7 +3907,7 @@ const _lrihBW = defineEventHandler(async (event) => {
   return contents;
 });
 
-const _7xOIou = defineEventHandler(async (event) => {
+const _YJl5VN = defineEventHandler(async (event) => {
   const { content } = useRuntimeConfig();
   const now = Date.now();
   const contents = await serverQueryContent(event).find();
@@ -4009,7 +4009,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _ZMcC4r = defineEventHandler(async (event) => {
+const _uvYoO0 = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -4046,18 +4046,18 @@ const _ZMcC4r = defineEventHandler(async (event) => {
   return createNav(contents, configs);
 });
 
-const _lazy_bCyEjp = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_7fL7Gz = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_bCyEjp, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _lrihBW, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _lrihBW, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _lrihBW, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.json', handler: _7xOIou, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _ZMcC4r, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _ZMcC4r, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _ZMcC4r, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_bCyEjp, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_7fL7Gz, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _B71yPa, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _B71yPa, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _B71yPa, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.json', handler: _YJl5VN, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _uvYoO0, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _uvYoO0, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _uvYoO0, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_7fL7Gz, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -4192,9 +4192,9 @@ const appRootTag = "div";
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/abdullahzeyn/code/azeyn25/Zeyn Website/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('/Users/abdullahzeyn/code/azeyn25/Zeyn-Website/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
