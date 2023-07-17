@@ -9,7 +9,7 @@ const { links } = defineProps<{
     <NuxtLink
       :to="link.to"
       :class="[
-        $route.path === link.to? 'text-gradient': 'text-zinc-700 dark:text-zinc-400',
+        $route.path === link.to? 'text': 'text-zinc-700 dark:text-zinc-400',
         'px-2 hover:text-zinc-900 dark:hover:text-zinc-200'
       ]"
       v-for="(link, index) in links"
